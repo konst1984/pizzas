@@ -1,0 +1,58 @@
+.root {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #fe5f1e;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.root:focus-within {
+  background-color: rgb(189, 77, 34);
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  padding: 10px 0;
+  margin: 0 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 25px 12px 40px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  overflow: hidden;
+  outline: none;
+}
+.input:focus, .input:focus-visible {
+  width: 100%;
+  outline: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+  position: absolute;
+  left: 10px;
+  top: 22px;
+}
+
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 24px;
+  cursor: pointer;
+}
+.clearIcon:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=Search.module.css.map */
