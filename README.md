@@ -3,4 +3,4 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Проект  по урокам на YouTube
-[Demo](https://github.com/facebook/create-react-app)
+[Demo](https://konst1984.github.io/pizzas/)
